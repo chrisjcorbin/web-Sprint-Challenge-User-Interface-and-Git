@@ -244,6 +244,7 @@ justify-content: center;
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
+    border-bottom:none;
 }
 
 .bottom-content .text-container {
@@ -271,4 +272,50 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* about.html specific */
+
+.container about-page{
+    width:100%;
+}
+
+section{
+    padding: 0 0 20px 0;
+    border-bottom: 1px dashed black;
+}
+
+#bottom-about-section{
+    border-bottom:none;
+}
+
+.about-columns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.about-columns a{
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 2% 5%;
+    margin: 20px 0;
+}
+
+.about-columns p{
+    margin-bottom: 30px;
+}
+
+.about-columns img{
+    padding-bottom: 20px;
+}
+
+.strategy, .how-we-work, .places-we-work, .collaboration{
+    width: 45%;
+    height: 60vh;
+    border-bottom: 1px dashed black;
+    margin: 30px 20px;
 }
